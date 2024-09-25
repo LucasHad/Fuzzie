@@ -20,9 +20,7 @@ const Settings = async (props: Props) => {
         clerkId: authUser.id,
       },
       data: {
-        profileImage: "",
-      },
-    });
+        profileImage: "",   k
     return response;
   };
 
